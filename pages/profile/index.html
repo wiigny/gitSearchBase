@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="../../styles/reset.css" />
+    <link rel="stylesheet" href="../../styles/globalStyles.css" />
+    <link rel="stylesheet" href="../../styles/positioning.css" />
+    <link rel="stylesheet" href="../../styles/opacity.css" />
+    <link rel="stylesheet" href="../../styles/display.css" />
+    <link rel="stylesheet" href="../../styles/buttons.css" />
+    <link rel="stylesheet" href="../../styles/inputs.css" />
+    <link rel="stylesheet" href="../../styles/texts.css" />
+    
+    <link rel="stylesheet" href="./index.css" />
+
+    <title id="titlePage">Nome do usuário Github</title>
+  </head>
+  <body>
+    <main class="container2 p-tb dspl-flex flex__direc-column gap70">
+      <section>
+        <div class="dspl-flex justf__cont-S-B">
+
+          <div class="dspl-flex gap20">
+
+            <div class="divImg">
+              <img id="avatarUserGit" src="" alt="">
+            </div>
+
+            <div class="dspl-flex flex__direc-column justf__cont-S-A">
+              <h1 id="nameUserGit" class="titleUser"></h1>
+              <p id="bioUserGit" class="text2 opac50"></p>
+            </div>
+
+          </div>
+  
+          <div class="dspl-flex align__items-center gap20">
+
+            <button id="emailUser" class="button1"><a href="mailto" class="text5" target="_blank">Email</a></button>
+
+            <button id="changeUser" class="button2 text5">Trocar de usuário</button>
+
+          </div>
+
+        </div>
+      </section>
+
+      <section>
+
+        <ul id="listRepos" class="dspl-flex justf__cont-S-B flex__wrap-wrap gap20">
+
+          <li class="dspl-flex flex__direc-column gap20">
+            <h2 class="title2"></h2>
+            
+            <p class="text6 opac60"></p>
+            
+            <div class="dspl-flex gap14">
+              <button class="button3"><a href=""></a></button>
+            
+              <button class="button3"><a href=""></a></button>
+            </div>
+          </li>
+
+        </ul>
+
+      </section>
+
+    </main>
+
+    <script src="./render.js"></script>
+    <script src="./index.js"></script>
+
+  </body>
+</html>

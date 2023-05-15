@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: var(--font-family-1);
+}
+
+:root{
+    --color-brand-1: #C2255C;
+    --color-brand-2: #D6336C;
+    --color-grey-1:  #191C1F;
+    --color-grey-2:  #212529;
+    --color-grey-3:  #33363A;
+    --color-grey-4:  #373B3E;
+    --color-grey-6:  #A6A8A9;
+    --color-grey-7:  #FFFFFF;
+    --color-grey-7-08:  rgba(255,255,255,0.08);
+    --color-grey-7-16:  rgba(255,255,255,0.16);
+    --color-grey-7-50:  rgba(255,255,255,0.50);
+    --color-alert:   #C22554;
+
+    --font-family-1: 'Inter', sans-serif;
+
+    --font-size-1: 2rem;
+    --font-size-2: 1.5rem;
+    --font-size-3: 1.3rem;
+    --font-size-4: 1rem;
+    --font-size-5: 0.875rem;
+    --font-size-6: 0.75rem;
+
+    --font-weight-1: 700;
+    --font-weight-2: 600;
+    --font-weight-3: 500;
+    --font-weight-4: 400;
+    
+    --line-height: 150%;
+
+    --width-full: 100vw;
+    --width-fullPercent: 100%;
+    --height-full: 100vh;
+
+    --width-half: 50%;
+
+    --radius-1: 4px;
+    --radius-2: 50%;
+    --radius-3: 8px;
+
+    --pointer: pointer;
+
+    --animation-duration: 0.2s;
+    --animation-type: ease;
+}

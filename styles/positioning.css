@@ -1,0 +1,63 @@
+.container{
+    width: 60%;
+    margin: 0 auto;
+}
+.container2{
+    width: 70%;
+    margin: 0 auto;
+}
+
+.p-tb{
+    padding: 60px 0px;
+}
+
+.flex__direc-column{
+    flex-direction: column;
+}
+.flex__direc-row{
+    flex-direction: row;
+}
+
+.flex__wrap-wrap{
+    flex-wrap: wrap;
+}
+
+.gap70{
+    gap: 70px;
+}
+.gap40{
+    gap: 40px;
+}
+.gap20{
+    gap: 20px;
+}
+.gap14{
+    gap: 14px;
+}
+
+.justf__cont-center{
+    justify-content: center;
+}
+.justf__cont-S-A{
+    justify-content: space-around;
+}
+.justf__cont-S-B{
+    justify-content: space-between;
+}
+
+.align__items-center{
+    align-items: center;
+}
+
+.width50{
+    width: var(--width-half);
+}
+.wScreen{
+    width: var(--width-full);
+}
+.wScreenPercent{
+    width: var(--width-fullPercent);
+}
+.hScreen{
+    height: var(--height-full);
+}

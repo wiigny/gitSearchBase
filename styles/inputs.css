@@ -1,0 +1,10 @@
+.input1{
+    background-color: var(--color-grey-1);
+    border: 1px solid var(--color-grey-7-16);
+    border-radius: var(--radius-1);
+    padding: 8px 13px;
+    color: var(--color-grey-7-50);
+}
+.input1:focus{
+    border-color: var(--color-grey-6);
+}
